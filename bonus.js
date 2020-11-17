@@ -7,7 +7,8 @@ function squaed(b) {
 */
 
 function squaed(b) {
-    return a * a;
+    const b = a * a;
+    return b;
   }
 
 /*
@@ -57,7 +58,7 @@ function has_bugs(buggy_code) {
 
 // Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise
 function dividesEvenly(a, b) {
-    if(){
+    if(a % 2 ==0){
         const even = true;
         return even;
     } else {
