@@ -1,5 +1,6 @@
 /*
-1. Debug and fix the code below. Analyze the code carefully to determine what it is supposed to do.
+1. Debug and fix the code below. 
+Analyze the code carefully to determine what it is supposed to do.
 
 function squaed(b) {
   return a * a;
@@ -7,9 +8,10 @@ function squaed(b) {
 */
 
 function squaed(b) {
-    const b = a * a;
-    return b;
+    const answerThing= a * a;
+    return answerThing;
   }
+
 
 /*
 2. Using the && operator, consider the following below:
@@ -58,7 +60,7 @@ function has_bugs(buggy_code) {
 
 // Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise
 function dividesEvenly(a, b) {
-    if(a % 2 ==0){
+    if(a % b === 0 ){
         const even = true;
         return even;
     } else {
